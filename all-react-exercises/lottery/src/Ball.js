@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
+import './Ball.css'
 
 class Ball extends Component{
-    static defaultProps = {
-        ballNums: [1]
-    }
     render(){
         return (
-            <div>{this.props.set}</div>
+            <div className="Ball">{this.props.num}</div>
         )
     }
 }
