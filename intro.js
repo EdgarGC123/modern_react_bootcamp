@@ -29,3 +29,16 @@ more can be found here:
 https://reactjs.org/docs/events.html#supported-events
 
 */
+
+/*
+Sever Side Routing: when you click on a new link on a page, it pings the server to take load a completely new page with different content loaded from the server. 
+
+Client Side Routing: it replicates the server side routing without actually loading anything new as it was already loaded but still changes the url link. also, browser allows back and forth button.
+
+=================
+
+        <Switch>
+          <Route exact path='/' component={About} />component will create a new component every time but has no performance hit if you are not passing props. 
+          <Route exact path='/dog' render={() => <Dog name="Amadeus" />} /> render will simply run the component as a render and allows you to use props. using component in this instance will create a new component every time. 
+        </Switch>
+*/
