@@ -1,0 +1,21 @@
+.indy-dog {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.DogList img {
+	width: 400px;
+	border-radius: 50%;
+	margin: 50px;
+}
+.DogList p {
+	position: absolute;
+	text-shadow: 2px 2px black;
+	size: 50em;
+	color: white;
+}
+.DogList {
+	margin: 10px;
+	text-align: center;
+}
